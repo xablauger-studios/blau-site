@@ -49,7 +49,7 @@
     "pretest": "npm install",
     "prepush": "npm install && npm run build && chmod +x tasks/publish/prepush.sh && tasks/publish/prepush.sh",
     "build:templates:jade": "node tasks/templates/render.js",
-    "build:templates:validator": "html-validator --file=src/index.html --verbose --format=gnu",
+    "build:templates:validator": "html-validator --file=dist/index.html --verbose --format=gnu",
     "build:templates": "run-s build:templates:jade build:templates:validator && cp -rf src/manifest.json dist",
     "build:styles:stylus": "mkdir -p dist/styles && stylus -c src/styles/main.styl -o dist/styles/main.min.css -u rupture",
     "build:styles:lint": "stylint --config .styluslintrc src/styles/*styl",
