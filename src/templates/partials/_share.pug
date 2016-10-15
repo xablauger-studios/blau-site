@@ -1,0 +1,27 @@
+section#share.container
+
+  h3.title spread the word!
+
+  p
+    | So in love with 
+    strong blau
+    |  that you just can't keep it to yourself? Then share it with anyone you'd like to play with you!
+    
+  .share
+    ul.share-list
+      each link in sections[2].sharingLinks
+        if (link.socialNetwork === "WhatsApp")
+          li.share-item.only-mobile
+            a.share-dialog(href=`${link.sharingURL}${link.message}`, title=`Share blau on ${link.socialNetwork}`, target='blank')
+              i.icon.fa.fa-whatsapp.share-icon
+
+        else        
+          li.share-item
+            a.share-dialog(href=`${link.sharingURL}${link.message}`, title=`Share blau on ${link.socialNetwork}`, target='blank')
+              if (link.socialNetwork === "Facebook")
+                i.icon.fa.fa-facebook.share-icon
+              else if (link.socialNetwork === "Twitter")
+                i.icon.fa.fa-twitter.share-icon
+              else
+                i.icon.fa.fa-google-plus.share-icon
+          
