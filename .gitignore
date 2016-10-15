@@ -10,7 +10,7 @@ node_modules
 
 ### Bower ###
 
-bower_components
+src/vendor
 .bower-cache
 .bower-registry
 .bower-tmp
