@@ -1,0 +1,17 @@
+{
+  "name": "blaugame.com",
+  "version": "0.1.0",
+  "description": "Blau Game Official Website",
+  "homepage": "https://blaugame.com",
+  "repository": "xablauger-studios/blau-game-site",
+  "license": "MIT",
+  "author": "ythecombinator <matheus.brasil10@gmail.com>",
+  "private": "true",
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
