@@ -1,0 +1,29 @@
+nav.navigation
+
+  section.container
+
+    a.navigation-title.float-left(href=about.canonical)
+      img.img(src='images/logo.svg', height='30', alt="It's me, blau", title='Our Logo :)')
+
+    ul.navigation-list.float-right
+
+      li.navigation-item
+        a.navigation-link(href='#popover-grid', data-popover='') About It
+        #popover-grid.popover
+          ul.popover-list
+            li.popover-item
+              a.popover-link(href=`https://itunes.apple.com/app/blau/id${about.appleItunesAppID}`, target='blank', title="Get It Now!") Get It Now!           
+            each section in sections
+              li.popover-item
+                a.popover-link(href=`#${section.name}`, title=section.shortLabel) #{section.shortLabel}
+              
+      li.navigation-item
+        a.navigation-link(href='#popover-support', data-popover='') Find Us
+        #popover-support.popover
+          ul.popover-list
+            each socialNetwork in about.socialNetworks 
+              li.popover-item
+                if (socialNetwork.name === "YouTube")
+                  a.popover-link(target='blank', href=`https://www.${socialNetwork.name.toLowerCase()}.com/channel/${socialNetwork.ID}`, title=`On ${socialNetwork.name}`) On #{socialNetwork.name}
+                else
+                  a.popover-link(target='blank', href=`https://www.${socialNetwork.name.toLowerCase()}.com/${socialNetwork.ID}`, title=`On ${socialNetwork.name}`) On #{socialNetwork.name}
