@@ -1,0 +1,31 @@
+// # module: share
+//
+// TODO: Document, refactor.
+
+.share,
+.share-list,
+.share-list a
+  position: relative
+  text-decoration: none
+
+.share-item
+  display: inline-block
+  margin: 1rem 0.1rem
+
+.share-icon
+  background-color: $color-secondary
+  border-radius: 0.4rem
+  color: $color-primary
+  display: block
+  font-size: 1.5rem
+  height: 2.2rem
+  line-height: 2.2rem
+  text-align: center
+  width: 5rem
+  &:hover
+    color: $color-secondary
+    background-color: $color-primary
+
++above(40rem)
+  .only-mobile
+    display: none
