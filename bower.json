@@ -1,0 +1,13 @@
+{
+  "name": "blaugame.com",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "clappr": "^0.2.63",
+    "font-awesome": "latest",
+    "milligram": "latest",
+    "normalize.css": "~3.0.0",    
+    "particles.js": "^2.0.0",
+    "vivus": "^0.3.2"
+  }
+}
