@@ -1,0 +1,37 @@
+// # module: header
+//
+// TODO: Document, refactor.
+
+.header
+  background-color: $color-primary
+  padding-top: 1rem
+  
+  +above(40rem)
+    padding-top: 5rem
+  
+  & + section
+    border-top: 0
+  
+  .container
+    border-top: 0
+    padding-bottom: 7.5rem
+    padding-top: 7.5rem
+    position: relative
+    text-align: center
+  
+  .title
+    margin-top: 15rem
+    height: 15rem
+    color: $color-secondary
+  
+  .img
+    height: 15rem
+    margin-bottom: 2rem
+  
+  .button
+    margin-bottom: 4rem
+    margin-top: 2rem
+    
+    +above(40rem)
+      margin-bottom: 4rem
+      margin-top: 2rem
