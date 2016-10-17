@@ -4,23 +4,23 @@
 
 ;(() => {
 
-	'use strict';
+  'use strict';
 
-	document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
 
-		const playerElement = document.getElementById("player");
+    const playerElement = document.getElementById("player");
 
-		const player = new Clappr.Player({
-		  source: 'http://clappr.io/highline.mp4',
-		  baseUrl: '/latest',
-		  poster: 'http://clappr.io/poster.png',
-		  height: "100%",
-		  width: "100%",
-		  mediacontrol: {seekbar: "#000000", buttons: "#000000"}
-		});
+    const player = new Clappr.Player({
+      source: 'http://clappr.io/highline.mp4',
+      baseUrl: '/latest',
+      poster: 'http://clappr.io/poster.png',
+      height: "100%",
+      width: "100%",
+      mediacontrol: {seekbar: "#000000", buttons: "#000000"}
+    });
 
-		player.attachTo(playerElement);			  
-	  
-	});
+    player.attachTo(playerElement); 
+    
+  });
 
 })();
