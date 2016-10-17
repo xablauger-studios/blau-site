@@ -26,7 +26,6 @@
 
 - [The Game](#the-game)
 - [Usage](#usage)
-- [How it works?](#how-it-works)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
@@ -48,7 +47,7 @@ then evolves with physics, but the end is up to you**.
 
 <p align="center">
   <a href="https://itunes.apple.com/br/app/blau/id1150066458">
-    <img alt="Download on the App Store" src="docs/images/badge.png" width="350px">
+    <img alt="Download on the App Store" src="docs/images/badge.png" width="150px">
   </a>
 </p>
 
@@ -208,3 +207,21 @@ Here is a summary of the main commands:
 - `test:regression`: **test** resulted CSS for unexpected visual problems.
 - `test:npm`: **test** if project *npm dependencies* are up to date.
 - `deploy`: **deploy** current `dist` to *GitHub Pages*.
+
+## License
+
+- [Blau Game Official Site](https://github.com/xalbauger-studios/blau-site) 
+source code is licensed under the [MIT License]().
+
+- Other stuff related to *Blau Game* itself - e.g. logo and visual identity - 
+which are available in this repo are licensed under the [Creative Commons  Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/) License.
+
+- The *Download on the App Store* badge is has *All Rights Reserved to Apple Inc*.
+
+**All contributions are assumed to be also licensed under the same.**
+
+## Credits
+
+- Some of the base stylization scripts and styles themselves were originally
+written by the [milligram](https://milligram.github.io/) team. The original 
+repo can be found [here](https://github.com/milligram/milligram.github.io/). Copyright © 2016 [CJ Patoilo](https://github.com/cjpatoilo)
