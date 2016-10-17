@@ -4,14 +4,18 @@
 
 #player
   display: inline-block
-  width: 35rem
-  height: 20rem
+  width: 25rem
+  height: 13.31rem
   padding: 0.5rem
   
-  +between(64rem, 80rem)
+  +tablet()
     width: 53rem
     height: 30rem
     
-  +above(80rem)
+  +desktop()
     width: 80rem
     height: 45rem
+    
+  +hd()
+    width: 120rem
+    height: 67.5rem    
