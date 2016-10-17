@@ -3,9 +3,8 @@ header#home.header
   section.container
     
     #particles
-      .row
-        .column.column-50.column-offset-25
-          include _logo
+
+      include _logo
           
       p.description
         | It all starts with a gesture, then evolves with physics, but the end is up to you.
@@ -13,4 +12,4 @@ header#home.header
       a(target='blank', href=`https://itunes.apple.com/app/blau/id${about.appleItunesAppID}`)
         img.img(src='images/app_store.svg', width='150', alt='Download on the App Store', title='Download on the App Store')
 
-      canvas.particles-js-canvas-el(width='1298', height='4296')
+      canvas.particles-js-canvas-el()
