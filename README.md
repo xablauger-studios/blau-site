@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="https://itunes.apple.com/br/app/blau/id1150066458">
-    <img alt="Logo" src="docs/images/logo.png" width="350px">
+    <img alt="Logo" src="docs/images/logo.png" width="450px">
   </a>
 </p>
 
@@ -44,8 +44,13 @@ of each level. How? By guiding blau - actually, an abstract black circle -
 through many simple - yet elegant - puzzles, avoiding physics-based traps and collecting shapes; to every level, there are many solutions, which go from beautifully simple to deep and complex ones - **it all starts with a gesture, 
 then evolves with physics, but the end is up to you**.
 
-[Download it now here](https://itunes.apple.com/br/app/blau/id1150066458)
-[Official game teaser](https://www.youtube.com/watch?v=kNVg4-tiJzA)
+[Watch now the official game teaser!](https://www.youtube.com/watch?v=kNVg4-tiJzA)
+
+<p align="center">
+  <a href="https://itunes.apple.com/br/app/blau/id1150066458">
+    <img alt="Download on the App Store" src="docs/images/badge.png" width="350px">
+  </a>
+</p>
 
 ## Usage
 
@@ -180,3 +185,26 @@ other players.
   ]
 }
 ```
+
+### Workflow
+
+All the tasks needed for development automation are defined in the
+[`package.json`](package.json) *scripts* property and can be run via:
+
+`npm run <command>`
+
+Here is a summary of the main commands:
+
+- `build:templates`: **compile** `.pug` files and **validate** the output.
+- `build:scripts`: **lint**, **minify** and **concatenate** `.js` files.
+- `build:styles`: **lint** and **compile** `.styl` files.
+- `build:vendor`: **copy** `src/vendor` to `dist/vendor`.
+- `build:images`: **optimize** raster and vector images.
+- `build:videos`: **copy** `src/videos` to `dist/videos`.
+- `build`: **run** all `build:` tasks.
+- `watch`: **watch** `src/**/*` and **run** the corresponding `build:` tasks while serves the result.
+- `test:complexity`: **test** against static analysis complexity test.
+- `test:perf`: **test** against web performance best practices.
+- `test:regression`: **test** resulted CSS for unexpected visual problems.
+- `test:npm`: **test** if project *npm dependencies* are up to date.
+- `deploy`: **deploy** current `dist` to *GitHub Pages*.
