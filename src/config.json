@@ -4,7 +4,7 @@
     "description":"It all starts with a gesture, then evolves with physics, but the end is up to you.",
     "author":"Xablauger Software",
     "canonical":"https://blaugame.com",
-    "image":"",
+    "image":"https://raw.githubusercontent.com/xablauger-studios/blau-site/dev/src/images/banner.png",
     "appleItunesAppID":"1150066458",
     "mobile":{
       "themeColor":"#ffffff"
