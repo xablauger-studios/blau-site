@@ -10,7 +10,7 @@
 
 <p align="center">
 
-  <a href=""><img alt="Build Status" src=""></a>
+  <a href="https://codeship.com/projects/7a6a8ec0-77bb-0134-da23-5251019101b9/status?branch=dev"><img alt="Build Status" src="https://codeship.com/projects/7a6a8ec0-77bb-0134-da23-5251019101b9/status?branch=dev"></a>
 
   <a href="https://travis-ci.org/xablauger-studios/blau-site"><img alt="Build Status" src="https://travis-ci.org/xablauger-studios/blau-site.svg?branch=master"></a>
 
