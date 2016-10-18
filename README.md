@@ -208,6 +208,11 @@ Here is a summary of the main commands:
 - `test:npm`: **test** if project *npm dependencies* are up to date.
 - `deploy`: **deploy** current `dist` to *GitHub Pages*.
 
+## Contributing
+
+Contributions are very welcome! If you'd like to contribute, 
+[these guidelines](.github/contributing.md) may help you.
+
 ## License
 
 - [Blau Game Official Site](https://github.com/xalbauger-studios/blau-site) 
@@ -216,7 +221,7 @@ source code is licensed under the [MIT License]().
 - Other stuff related to *Blau Game* itself - e.g. logo and visual identity - 
 which are available in this repo are licensed under the [Creative Commons  Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/) License.
 
-- The *Download on the App Store* badge is has *All Rights Reserved to Apple Inc*.
+- The *Download on the App Store* badge has *All Rights Reserved to Apple Inc*.
 
 **All contributions are assumed to be also licensed under the same.**
 
@@ -224,4 +229,4 @@ which are available in this repo are licensed under the [Creative Commons  Attri
 
 - Some of the base stylization scripts and styles themselves were originally
 written by the [milligram](https://milligram.github.io/) team. The original 
-repo can be found [here](https://github.com/milligram/milligram.github.io/). Copyright © 2016 [CJ Patoilo](https://github.com/cjpatoilo)
+repo can be found [here](https://github.com/milligram/milligram.github.io/). Copyright © 2016 [CJ Patoilo](https://github.com/cjpatoilo).
