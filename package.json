@@ -38,6 +38,7 @@
     "pug": "^2.0.0-beta6",
     "rupture": "^0.6.2",
     "sitespeed.io": "^3.11.8",
+    "stylint": "^1.5.7",
     "stylus": "^0.54.5",
     "svgo": "^0.7.1",
     "uglify-js": "^2.6.2"
@@ -62,8 +63,8 @@
     "build:images:imagemin": "imagemin src/images/* -o dist/images",
     "build:images:svgo": "svgo -f src/images && mkdir -p dist/images ",
     "build:images": "run-s build:images:imagemin build:images:svgo",
-    "build:videos": "mkdir -p dist/videos && cp -rf src/videos dist", 
-    "build:docs": "cp -rf *.md dist",        
+    "build:videos": "mkdir -p dist/videos && cp -rf src/videos dist",
+    "build:docs": "cp -rf *.md dist",
     "build": "run-s clean build:templates build:scripts build:styles build:vendor build:images build:videos build:docs",
     "serve": "browser-sync start -s dist -f dist",
     "watch:templates": "onchange 'src/templates' 'src/config.json' -- npm run build:templates",
@@ -71,8 +72,8 @@
     "watch:styles": "onchange 'src/styles' -- npm run build:styles",
     "watch:vendor": "onchange 'src/vendor' -- npm run build:vendor",
     "watch:images": "onchange 'src/images' -- npm run build:images",
-    "watch:videos": "onchange 'src/videos' -- npm run build:videos",    
-    "watch:docs": "onchange '*.md' -- npm run build:docs",    
+    "watch:videos": "onchange 'src/videos' -- npm run build:videos",
+    "watch:docs": "onchange '*.md' -- npm run build:docs",
     "watch": "run-p watch:templates watch:scripts watch:styles watch:vendor watch:images watch:videos watch:docs serve",
     "test:complexity:plato": "plato -r -d test/complexity -l .eslintrc -t 'Code Complexity Tool' -x .json src/scripts/*.js && opn test/complexity/index.html",
     "test:complexity": "run-s plato",
@@ -82,7 +83,7 @@
     "test:regression:compare": "run-s build && gulp --gulpfile node_modules/backstopjs/gulpfile.js test --configPath=../../backstop.conf.js",
     "test:regression": "run-p serve compare",
     "test:npm": "npm-check -u",
-    "test":"npm run build",
-    "deploy":"node tasks/deploy/gh-pages.js"
+    "test": "npm run build",
+    "deploy": "node tasks/deploy/gh-pages.js"
   }
 }
