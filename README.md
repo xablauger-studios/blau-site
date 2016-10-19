@@ -12,7 +12,7 @@
 
   <a href="https://codeship.com/projects/7a6a8ec0-77bb-0134-da23-5251019101b9/status?branch=dev"><img alt="Build Status" src="https://codeship.com/projects/7a6a8ec0-77bb-0134-da23-5251019101b9/status?branch=dev"></a>
 
-  <a href="https://travis-ci.org/xablauger-studios/blau-site"><img alt="Build Status" src="https://travis-ci.org/xablauger-studios/blau-site.svg?branch=master"></a>
+  <a href="https://travis-ci.org/xablauger-studios/blau-site"><img alt="Build Status" src="https://travis-ci.org/xablauger-studios/blau-site.svg?branch=dev"></a>
 
   <a href="https://codeclimate.com/github/mabrasil/flat-palettes"><img alt="Code Climate" src="https://codeclimate.com/github/xablauger-studios/blau-site/badges/gpa.svg"/></a>
 
