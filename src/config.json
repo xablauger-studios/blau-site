@@ -3,7 +3,7 @@
     "title":"Blau Game",
     "description":"It all starts with a gesture, then evolves with physics, but the end is up to you.",
     "author":"Xablauger Software",
-    "canonical":"https://blaugame.com",
+    "canonical":"http://blaugame.com",
     "image":"https://raw.githubusercontent.com/xablauger-studios/blau-site/dev/src/images/banner.png",
     "appleItunesAppID":"1150066458",
     "mobile":{
@@ -48,7 +48,7 @@
             "role":"Lead Game Programmer",
             "company":"Blau Game"
           },
-          "opinion":"The best game I've ever palyed.",
+          "opinion":"Surely, the best game I've ever played.",
           "link":"https://blaugame.com"
         }
       ],
